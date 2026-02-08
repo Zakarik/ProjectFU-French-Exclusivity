@@ -14,7 +14,7 @@ This module aims to add support for classes and features that are only available
 ## Installation
 Use automatic Foundry module installation.\
 Module Manifest:\
-`https://github.com/League-of-Fabulous-Developers/ProjectFU-French-Exclusivity/releases/latest/download/module.json`
+`https://github.com/Zakarik/ProjectFU-French-Exclusivity/releases/latest/download/module.json`
 
 ## Currently supported:
 
