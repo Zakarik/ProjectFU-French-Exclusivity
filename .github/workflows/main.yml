@@ -1,4 +1,4 @@
-name: Create System Files For GitHub Release
+name: Create Module Files For GitHub Release
 
 
 env:
@@ -74,7 +74,7 @@ jobs:
       # Create a "module.zip" archive containing all the module's required files.
       # If you have other directories or files that will need to be added to
       # your packaged module, add them here.
-      - name: Create System Archive
+      - name: Create Module Archive
         run: |
           # Note that `zip` will only emit warnings when a file or directory
           # doesn't exist, it will not fail.
@@ -104,6 +104,6 @@ jobs:
           draft: ${{ github.event.release.unpublished }}
           prerelease: ${{ github.event.release.prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: './system.json, ./system.zip'
+          artifacts: './module.json, ./module.zip'
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
