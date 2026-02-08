@@ -1,0 +1,11 @@
+{
+  "FU-FREX": {
+    "botte": {
+      "label": "Botte",
+      "posture":"Posture",
+      "dupe":"Posture de Dupe",
+      "pilier":"Posture de Pilier",
+      "duelliste":"Posture de Duelliste"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<div class="flexrow item-full start">
+    <div>
+        <span><strong>{{localize 'FU-FREX.botte.posture'}}: </strong></span>
+        <span class="description-effect">{{system.data.posture}}</span>
+    </div>
+        <div class="flex0">
+        <a class="item-control item-option" data-action="toggleActiveBotte" data-item-id="{{item.id}}" data-tooltip="{{ localize 'FU.Activate' }}" aria-describedby="tooltip">
+            <i class="button-style mats-s mats-icon {{#if additionalData.active}}mats-fill active{{/if}}" style="--mats-icon: '{{#if additionalData.active}}task_alt{{else}}radio_button_unchecked{{/if}}'; font-size: 18px;"></i>
+        </a>
+    </div>
+</div>

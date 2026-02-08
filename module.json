@@ -1,0 +1,63 @@
+{
+  "id": "projectfu-french-ex",
+  "title": "ProjectFU French Exculsivity Support",
+  "description": "Support for Fabula Ultima French Exclusivity content.",
+  "version": "4.0.1",
+  "library": "false",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 13
+  },
+  "authors": [
+    {
+      "name": "Zakarik",
+      "url": "https://fr.tipeee.com/zakarik",
+      "discord": "Zakarik#9006",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "system",
+        "manifest": "https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "4.5.2"
+        }
+      }
+    ],
+    "requires": []
+  },
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "languages/fr.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "languages/pt_BR.json"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": []
+}

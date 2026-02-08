@@ -1,0 +1,19 @@
+<div class='resource-content desc flexcol gap-5 flexgrow-1'>
+    <div>
+        <label class='resource-label-m'>
+            {{localize 'FU-FREX.botte.posture'}}:
+            <select class="resource-text-m resource-inputs" style="width: 16em;" name="system.data.posture">
+                {{selectOptions additionalData.posture selected=system.data.posture localize=true}}
+            </select>
+        </label>
+    </div>
+    <hr>
+    <div>
+        <label class='resource-label-m'>
+            {{localize 'FU.Description'}}
+        </label>
+		<prose-mirror name="system.data.description" value="{{system.data.description}}" toggled>
+			{{{enrichedHtml.description}}}
+		</prose-mirror>
+    </div>
+</div>

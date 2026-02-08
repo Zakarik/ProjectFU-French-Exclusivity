@@ -1,0 +1,11 @@
+<div class="fu-tags">
+    <div class="fu-tag gap-5">
+        {{localize 'FU-FREX.botte.posture'}}: {{localize posture}}
+    </div>
+</div>
+<div class='chat-desc'>
+    <details {{#unless (pfuGetSetting 'optionChatMessageCollapseDescription')}}open{{/unless}}>
+        <summary class="collapsible-description align-center">{{localize 'FU.Description'}}</summary>
+        {{{description}}}
+    </details>
+</div>
